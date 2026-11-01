@@ -6,6 +6,18 @@
    ========================================================= */
 
 /* ---------------------------------------------------------
+   FONTS (self-hosted, woff2, font-display: swap)
+   --------------------------------------------------------- */
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 400; font-display: swap; src: url('assets/fonts/inter-tight-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 500; font-display: swap; src: url('assets/fonts/inter-tight-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 600; font-display: swap; src: url('assets/fonts/inter-tight-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 700; font-display: swap; src: url('assets/fonts/inter-tight-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url('assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('assets/fonts/inter-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('assets/fonts/ibm-plex-mono-latin-500-normal.woff2') format('woff2'); }
+
+/* ---------------------------------------------------------
    TOKENS
    --------------------------------------------------------- */
 :root {
@@ -17,7 +29,7 @@
   /* Ink */
   --ink:          #1E1C19;
   --ink-soft:     #4C483F;   /* AA body-secondary on stone */
-  --ink-faint:    #6E6757;   /* meta / mono labels */
+  --ink-faint:    #655E4E;   /* meta / mono labels (AA on stone surfaces) */
 
   /* Hairlines */
   --line:         #CFC9BC;
@@ -64,7 +76,7 @@
   --stone-sunken: #131210;
   --ink:          #E9E4D8;
   --ink-soft:     #A49C8D;
-  --ink-faint:    #837B6C;
+  --ink-faint:    #8F8878;
   --line:         #2C2922;
   --line-strong:  #3C382E;
   --accent:       #90A6BE;
@@ -77,7 +89,7 @@
     --stone-sunken: #131210;
     --ink:          #E9E4D8;
     --ink-soft:     #A49C8D;
-    --ink-faint:    #837B6C;
+    --ink-faint:    #8F8878;
     --line:         #2C2922;
     --line-strong:  #3C382E;
     --accent:       #90A6BE;

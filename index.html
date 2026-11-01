@@ -13,11 +13,10 @@
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#E7E3DA" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#181714" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- TODO (perf): self-host these woff2 with font-display:swap before deploy -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/inter-tight-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="v2.css">
 </head>
@@ -291,10 +290,9 @@
     <!-- ============ CONTACT · 侘寂 WABI-SABI + ENSŌ ============ -->
     <section class="contact" id="contact">
       <svg class="contact__enso" viewBox="0 0 500 500" fill="none" aria-hidden="true" role="presentation">
-        <path class="enso-draw" d="M318 82 A190 190 0 1 1 182 82"
-              transform="rotate(-18 250 250)"
-              stroke="currentColor" stroke-width="9" stroke-linecap="round"
-              pathLength="1"/>
+        <circle class="enso-draw" cx="250" cy="250" r="190"
+                stroke="currentColor" stroke-width="9" stroke-linecap="round"
+                pathLength="1"/>
       </svg>
       <div class="contact__in reveal">
         <span class="kicker">04 — Get in touch</span>
