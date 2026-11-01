@@ -2,6 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/skeps-case-study", "destination": "/", "permanent": false },
+    { "source": "/skeps-case-study.html", "destination": "/", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/assets/fonts/(.*)",
