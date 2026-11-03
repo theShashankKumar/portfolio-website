@@ -317,7 +317,7 @@ hr.rule { height: 1px; background: var(--line); border: 0; }
 .contact { position: relative; padding: var(--s-8) var(--gutter); text-align: center; overflow: hidden; }
 .contact__enso {
   position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-  width: min(56rem, 128vw); height: auto; z-index: 0; color: var(--accent);
+  width: min(56rem, 155vw); max-width: none; height: auto; z-index: 0; color: var(--accent);
   opacity: .14; pointer-events: none;
 }
 :root[data-theme="dark"] .contact__enso { opacity: .2; }
